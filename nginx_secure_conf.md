@@ -48,6 +48,9 @@ if ($request_method !~ ^(HEAD|GET|POST|PUT|DELETE|OPTIONS)$) {
    return   444;
 }
 
+设置httponly等
+proxy_cookie_path / "/; httponly; secure; SameSite=Lax";
+        
 SSL配置：
 ssl on;
 ssl_dhparam /etc/nginx/dhparam.pem;#openssl dhparam -out dhparam.pem 2048 // 在 ssh 运行， openssl 生成 2048 位的密钥而不是当作参数写入 nginx.conf 文件。
