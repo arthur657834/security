@@ -15,3 +15,9 @@ PING 167850746 (10.1.50.250) 56(84) bytes of data.<br>
 
 >短地址
 
+>xip.io
+>>10.0.0.1.xip.io   resolves to   10.0.0.1
+>>www.10.0.0.1.xip.io   resolves to   10.0.0.1
+>>mysite.10.0.0.1.xip.io   resolves to   10.0.0.1
+>>foo.bar.10.0.0.1.xip.io   resolves to   10.0.0.1
+>>http://xip.io/
