@@ -11,13 +11,13 @@ SSRF(Server-Side Request Forgery:服务器端请求伪造) 是一种由攻击者
 >>10.1.50.250
 每个数字转16进制数字，再将16进制数字转成10进制<br>
 PING 167850746 (10.1.50.250) 56(84) bytes of data.<br>
-64 bytes from 10.1.50.250: icmp_seq=1 ttl=64 time=0.160 ms
+64 bytes from 10.1.50.250: icmp_seq=1 ttl=64 time=0.160 ms<br>
 
 >短地址
 
 >xip.io
->>10.0.0.1.xip.io   resolves to   10.0.0.1
->>www.10.0.0.1.xip.io   resolves to   10.0.0.1
->>mysite.10.0.0.1.xip.io   resolves to   10.0.0.1
->>foo.bar.10.0.0.1.xip.io   resolves to   10.0.0.1
->>http://xip.io/
+>>10.0.0.1.xip.io   resolves to   10.0.0.1<br>
+>>www.10.0.0.1.xip.io   resolves to   10.0.0.1<br>
+>>mysite.10.0.0.1.xip.io   resolves to   10.0.0.1<br>
+>>foo.bar.10.0.0.1.xip.io   resolves to   10.0.0.1<br>
+>>http://xip.io/<br>
