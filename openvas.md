@@ -37,5 +37,5 @@ ERROR: The number of NVTs in the OpenVAS Manager database is too low.
 
 解决办法:
 openvassd
-```
 openvasmd --rebuild --progress -v
+```
