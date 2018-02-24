@@ -24,6 +24,7 @@ openvasmd --rebuild --progress
 ### 启动
 openvasmd
 
+### web url
 https://<IP-ADDRESS>:9392 and login.
 
 
