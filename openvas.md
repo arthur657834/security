@@ -30,3 +30,12 @@ https://<IP-ADDRESS>:9392 and login.
 
 ### 创建user  
 openvasmd --create-user=admin --role=Admin && openvasmd --user=admin --new-password=666666 
+
+```
+问题1:
+ERROR: The number of NVTs in the OpenVAS Manager database is too low.
+
+解决办法:
+openvassd
+```
+openvasmd --rebuild --progress -v
