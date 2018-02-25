@@ -17,6 +17,8 @@ iface eth0 inet static
 address 10.1.50.28
 netmask 255.255.255.0 
 gateway 10.1.50.1
+
+/etc/init.d/networking restart
 ```
 
 ### 配置DNS
