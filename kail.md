@@ -21,5 +21,5 @@ gateway 10.1.50.1
 
 ### 配置DNS
 ```
-
+vi /etc/resolv.conf 
 ```
