@@ -31,6 +31,18 @@ https://<IP-ADDRESS>:9392 and login.
 ### 创建user  
 openvasmd --create-user=admin --role=Admin && openvasmd --user=admin --new-password=666666 
 
+### v9 漏洞库自动更新
+```
+[root@65-scan ~]# openvas-setup
+
+Openvas Setup, Version: 3.0
+
+
+Step 1: Update NVT, CERT, and SCAP data
+Please note this step could take some time.
+Once completed, this will be updated automatically every 24 hours
+```
+
 ```
 问题1:
 ERROR: The number of NVTs in the OpenVAS Manager database is too low.
