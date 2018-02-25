@@ -46,7 +46,7 @@ openvassd
 greenbone-nvt-sync
 
 ### 同步数据
-greenbone-scapdata-sync
+greenbone-scapdata-sync<br>
 greenbone-certdata-sync
 
 ### v9 漏洞库自动更新
