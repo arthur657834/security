@@ -1,3 +1,6 @@
+Network Vulnerability Tests (NVTs)<br>
+Greenbone Security Assistant (GSA)<br>
+
 ### 安装redis
 ```
 redis.conf 取消以下两行注释
@@ -13,6 +16,11 @@ yum install openvas -y
 
 openvas-setup
 openvas-check-setup --v9
+
+systemctl status openvas-manager
+systemctl status openvas-scanner
+systemctl status gsad
+
 ```
 
 ### 创建认证
@@ -30,6 +38,16 @@ https://<IP-ADDRESS>:9392 and login.
 
 ### 创建user  
 openvasmd --create-user=admin --role=Admin && openvasmd --user=admin --new-password=666666 
+
+### 加载plugins并启动openvas-scaner服务
+openvassd                                 
+
+### 同步漏洞库
+greenbone-nvt-sync
+
+### 同步数据
+greenbone-scapdata-sync
+greenbone-certdata-sync
 
 ### v9 漏洞库自动更新
 ```
