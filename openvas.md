@@ -47,7 +47,8 @@ greenbone-nvt-sync
 
 ### 同步数据
 greenbone-scapdata-sync<br>
-greenbone-certdata-sync
+greenbone-certdata-sync<br>
+systemctl start openvas-scanner.service
 
 ### v9 漏洞库自动更新
 ```
