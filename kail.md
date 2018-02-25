@@ -25,3 +25,11 @@ gateway 10.1.50.1
 ```
 vi /etc/resolv.conf 
 ```
+
+### 时间设置
+```
+timedatectl list-timezones
+timedatectl set-timezone "Asia/Shanghai" 
+timedatectl set-time '16:10:40 2015-11-20'
+timedatectl set-ntp true
+```
