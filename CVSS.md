@@ -4,8 +4,9 @@ https://cve.mitre.org/
 
 https://www.first.org/cvss/specification-document
 
-CVE: Common Vulnerabilities and Exposures
-CVSS: Common Vulnerability Scoring System
+CVE: Common Vulnerabilities and Exposures<br>
+
+CVSS: Common Vulnerability Scoring System<br>
 
 CVSS的度量指标
 CVSS由三个度量组：「基础-Base」，「时间-Temporal」和「环境-Environmental」组成
