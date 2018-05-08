@@ -1,6 +1,6 @@
 SDL security development lifecycle（安全开发生命周期）
 
-!(SDL) [SDL.gif]
+!(SDL) [./SDL.gif]
 
 1. 培训
 
